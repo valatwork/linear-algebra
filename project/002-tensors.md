@@ -8,12 +8,15 @@ There are four main types of tensors:
 
 2. **Vector**: A 1-dimensional tensor, which can be thought of as an array of numbers. For example, $[x_1, x_2, x_3]$ is a vector with three elements.
 
-3. **Matrix**: A 2-dimensional tensor, which can be thought of as a table of numbers with rows and columns. For example, $\begin{bmatrix} x_1 & x_2 \\ x_3 & x_4 \end{bmatrix}$
+3. **Matrix**: A 2-dimensional tensor, which can be thought of as a table of numbers with rows and columns. For example, 
+
+$$\begin{bmatrix} x_1 & x_2 \\ x_3 & x_4 \end{bmatrix}$$
 
    - A 2D tensor can be represented as a list of lists, e.g., `[[1, 2], [3, 4]]`.
 
 4. **Higher-dimensional tensors**: Tensors with three or more dimensions. For example, a 3-dimensional tensor can be thought of as a cube of numbers, and a 4-dimensional tensor can be thought of as a hypercube.
  - A 3D tensor 
+
 $$\left[
   {
     \begin{bmatrix}
@@ -28,6 +31,7 @@ $$\left[
     \end{bmatrix}
   }
 \right]$$
+
  - A 3D tensor can be represented as a list of lists of lists, e.g., `[[[1, 2], [3, 4]], [[5, 6], [7, 8]]]`.
 
 
